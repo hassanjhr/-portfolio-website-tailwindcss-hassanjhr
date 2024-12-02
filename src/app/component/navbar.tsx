@@ -15,13 +15,13 @@ export default function Navbar() {
         <div className="container mx-auto flex p-2 flex-row items-center justify-between">
           {/* Logo and Name on the left */}
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-            <Image
-              src={require("../../../public/assests/pictures/logo.png")}
-              width={100}
-              alt="logo"
-              height={100}
-              className="w-12"
-            />
+          <Image
+  src="/assests/pictures/logo.png"  
+  width={100}
+  height={100}
+  alt="logo"
+  className="w-12"
+/>
             <span className="ml-3 text-xl">HassanJHR</span>
           </a>
 

@@ -20,11 +20,14 @@ export default function Projects() {
 
       <div className="lg:w-1/4 sm:w-1/2 p-4 cursor-pointer">
         <div className="flex relative">
-          <Image
-            alt="gallery"
-            className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require('../../../public/assests/pictures/project1.png')}
-          />
+        <Image
+  alt="gallery"
+  className="absolute inset-0 w-full h-full object-cover object-center"
+  src="/assests/pictures/project1.png"  
+  width={500}  
+  height={500} 
+/>
+
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
               Resume Builder
@@ -52,11 +55,14 @@ export default function Projects() {
 
       <div className="lg:w-1/4 sm:w-1/ p-4 cursor-pointer">
         <div className="flex relative">
-          <Image
-            alt="gallery"
-            className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require('../../../public/assests/pictures/project2.png')}
-          />
+        <Image
+  alt="gallery"
+  className="absolute inset-0 w-full h-full object-cover object-center"
+  src="/assests/pictures/project2.png"  
+  width={500}  
+  height={500} 
+/>
+
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
               Responsive Website
@@ -81,11 +87,14 @@ export default function Projects() {
 
       <div className="lg:w-1/4 sm:w-1/ p-4 cursor-pointer">
         <div className="flex relative">
-          <Image
-            alt="gallery"
-            className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require('../../../public/assests/pictures/project3.png')}
-          />
+        <Image
+  alt="gallery"
+  className="absolute inset-0 w-full h-full object-cover object-center"
+  src="/assests/pictures/project3.png"  
+  width={500}  
+  height={500} 
+ />
+
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
               Simple Calculator
@@ -110,11 +119,15 @@ export default function Projects() {
 
       <div className="lg:w-1/4 sm:w-1/ p-4 cursor-pointer">
         <div className="flex relative">
-          <Image
-            alt="gallery"
-            className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require('../../../public/assests/pictures/project4.png')}
-          />
+       <Image
+  alt="gallery"
+  className="absolute inset-0 w-full h-full object-cover object-center"
+  src="/assests/pictures/project4.png"
+  width={500} 
+  height={500} 
+/>
+
+
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
               Timer

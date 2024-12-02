@@ -1,8 +1,9 @@
 "use client";
-import { Span } from "next/dist/trace";
+
 import Image from "next/image";
 import Link from "next/link";
 import Typewriter from "typewriter-effect";
+import ProfilePic from "@/app/assests/pictures/Picture.png"
 
 export default function Hero() {
   return (
@@ -30,13 +31,14 @@ export default function Hero() {
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <Image
-            className="object-cover object-center rounded mx-auto w-[25rem]"
-            alt="hero"
-            width={500}
-            height={500}
-            src={require("../../../public/assests/pictures/Picture.png")}
-          />
+        <Image
+  className="object-cover object-center rounded mx-auto w-[25rem]"
+  alt="hero"
+  width={500}
+  height={500}
+  src={ProfilePic} 
+/>
+
         </div>
       </div>
     </section>
